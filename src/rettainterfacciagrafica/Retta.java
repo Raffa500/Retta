@@ -154,7 +154,8 @@ public class Retta extends javax.swing.JFrame {
         B=Integer.parseInt(jTextField2.getText());  
         Graphics O3=jPanel1.getGraphics();
         O3.translate(100,100);
-        O3.drawLine(A,A,0,0);
+        for(int i=0;1<10;i++){
+        O3.drawLine()};
         Graphics O4=jPanel1.getGraphics();
         O4.translate(100,100);
         O4.drawLine(-100,0,100,0);
